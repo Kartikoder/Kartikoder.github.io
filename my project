@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <title>My project submission</title>
+ <header>
+   <body>
+   <h1>Karitkeya Verma</h1>
+   <nav>
+    <a href="One.html">One</a>
+	<a href="Two.html">Two</a>
+	<a href="Three.html">Three</a>
+	<a href="Four.html">Four</a>
+   </nav>
+   </header>
+   
+   <section>
+   <h2>Favourite Foods</h2>
+      <ul>
+	      <li>Pizza</li>
+		  <li>Burger</li>
+		  <li>Chicken</li>
+		  <li>Ramen</li>
+	  </ul>
+   </section>
+   
+   <section>
+     <h2>Achievements</h2>
+     Progress in this course(100%)
+     <progress value="100" max="100">100%</progress><br>	
+	 
+	 Progress in the Specialisation capstone(20%)
+     <progress value="20" max="100">20%</progress><br>
+	 
+	 Progress in life goals(60%)
+     <progress value="60" max="100">60%</progress>
+   </section>
+ 
+ 
+  <section>
+          <h2>More about me</h2>
+	 <details>
+	   <summary>My Childhood</summary>
+	   <p>I was born and raised in Lucknow,India. Ever since I was a child, I loved writing, reading and had a keen interest in learning new things.</p>
+    </details>
+   </section>	   
+    <footer>
+	      <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Web Designing for Everyone">
+	   
+	 
+	  
+	       <p>This page was created by Karitkeya Verma &#38; Colleen Van Lent. To learn more about web design 
+	       visit<a href="http://www.intro-webdesign.com/"> Intro to Web Designing</a></p>
+	</footer>
+
+
+		</body>
+ </html>

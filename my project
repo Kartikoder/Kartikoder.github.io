@@ -3,9 +3,70 @@
  <head>
  <meta charset="UTF-8">
  <title>My project submission</title>
+ <link href="https://fonts.googleapis.com/css2?family=Piazzolla&display=swap" rel="stylesheet">
+ <style>
+     *{
+         margin:0;
+         padding:0;
+         background-color:#a6f6f1;
+         font-family: 'Piazzolla', serif;
+     }
+     .whole{
+      margin:20px 10px 0;
+     }
+     header{
+         text-align:center;
+     }
+     header h1{
+         font-size:3rem;
+         margin-bottom:20px;
+         color:#726a95;
+     }
+     header a{
+         font-size:30px;
+         text-decoration:none;
+         padding:0 20px 20px 10px;
+     }
+     a:hover{
+         font-size:35px;
+         color: #00587a;
+     }
+     section{
+         font-size:20px;
+     }
+     section h2{
+         margin:20px 0 20px;
+         text-align:left;
+         font-size:2rem;
+         color:#726a95;
+     }
+     progress{
+         margin-left:30px;
+     }
+     li{
+         font-size:20px;
+     }
+     .foot{
+         margin-top:20px;
+         padding:10px 0 10px;
+         text-align:center;
+         background-color: #000;
+         color:#fff;
+     }
+     img{
+         height: 200px;
+         width: 200px;
+     }
+     .foot a{
+         background-color: #000;
+         text-decoration:none;
+     }
+ </style>
+ 
+ <div class="whole">
+    <body>
  <header>
-   <body>
-   <h1>Karitkeya Verma</h1>
+   <h1>...Karitkeya Verma...</h1>
    <nav>
     <a href="One.html">One</a>
 	<a href="Two.html">Two</a>
@@ -15,7 +76,7 @@
    </header>
    
    <section>
-   <h2>Favourite Foods</h2>
+   <h2>| Favourite Foods</h2>
       <ul>
 	      <li>Pizza</li>
 		  <li>Burger</li>
@@ -25,7 +86,7 @@
    </section>
    
    <section>
-     <h2>Achievements</h2>
+     <h2>| Achievements</h2>
      Progress in this course(100%)
      <progress value="100" max="100">100%</progress><br>	
 	 
@@ -38,7 +99,7 @@
  
  
   <section>
-          <h2>More about me</h2>
+          <h2>| More about me</h2>
 	 <details>
 	   <summary>My Childhood</summary>
 	   <p>I was born and raised in Lucknow,India. Ever since I was a child, I loved writing, reading and had a keen interest in learning new things.</p>
@@ -49,10 +110,11 @@
 	   
 	 
 	  
-	       <p>This page was created by Karitkeya Verma &#38; Colleen Van Lent. To learn more about web design 
+        </div>
+	       <p class="foot" >This page was created by Karitkeya Verma &#38; Colleen Van Lent. To learn more about web design 
 	       visit<a href="http://www.intro-webdesign.com/"> Intro to Web Designing</a></p>
 	</footer>
 
 
-		</body>
+        </body>
  </html>
